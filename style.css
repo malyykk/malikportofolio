@@ -1,20 +1,6 @@
 /*-----------------------------------*\
   #style.css
 \*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
   /**
@@ -29,14 +15,14 @@
     hsl(0, 0%, 19%) 97%
   );
   --bg-gradient-jet: linear-gradient(
-    to bottom right,          
+    to bottom right, 
     hsla(240, 1%, 18%, 0.251) 0%, 
     hsla(240, 2%, 11%, 0) 100%
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    hsl(236, 100%, 50%) 0%, 
-    hsla(231, 100%, 69%, 0) 50%
+    hsl(45, 100%, 71%) 0%, 
+    hsla(36, 100%, 69%, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
@@ -50,23 +36,23 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(221, 100%, 50%), 
-    
+    hsl(239, 91%, 46%), 
+    hsl(239, 91%, 46%)
   );
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
-  --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(81, 100%, 50%);
+  --jet: hsl(0, 0%, 25%);
+  --onyx: hsl(0, 0%, 29%);
+  --eerie-black-1: hsl(0, 0%, 100%);
+  --eerie-black-2: hsl(0, 0%, 0%);
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
+  --orange-yellow-crayola: hsl(239, 91%, 46%);
+  --vegas-gold: hsl(239, 91%, 46%);
   --light-gray: hsl(0, 0%, 84%);
-  --light-gray-70: hsla(0, 0%, 84%, 0.7);
+  --light-gray-70: hsla(0, 0%, 84%, 0.76);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
   /**
@@ -251,7 +237,7 @@ article.active {
   left: 0;
   width: 30px;
   height: 3px;
-  background: var(--text-gradient-yellow  );
+  background: var(--text-gradient-yellow);
   border-radius: 3px;
 }
 
